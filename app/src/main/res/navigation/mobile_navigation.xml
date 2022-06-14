@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/news">
+
+    <fragment
+        android:id="@+id/news"
+        android:name="com.company.vika.ui.news.HewsFragment"
+        android:label="Новости"
+        tools:layout="@layout/fragment_news" />
+
+    <fragment
+        android:id="@+id/rasp"
+        android:name="com.company.vika.ui.rasp.RaspFragment"
+        android:label="Расписание"
+        tools:layout="@layout/fragment_rasp" />
+
+    <fragment
+        android:id="@+id/abi"
+        android:name="com.company.vika.ui.abi.AbiFragment"
+        android:label="Абитуриентам"
+        tools:layout="@layout/fragment_abi" />
+
+    <fragment
+        android:id="@+id/contacts"
+        android:name="com.company.vika.ui.contact.ContactFragment"
+        android:label="Контакты"
+        tools:layout="@layout/fragment_contact" />
+
+    <fragment
+        android:id="@+id/helps"
+        android:name="com.company.vika.ui.help.HelpFragment"
+        android:label="Контакты"
+        tools:layout="@layout/fragment_help" />
+</navigation>
